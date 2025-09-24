@@ -17,3 +17,22 @@ content-type: application/json
   "enviar_info": "no_gracias"
 
 }
+### Publicar hora
+POST http://localhost:3000/api/inscribirse HTTP/1.1
+content-type: application/json
+
+{
+  "nombre_completo": "Jariso",
+  "tipo_doc": "cedula",
+  "documento": "231321",
+  "correo": "a@gmail.com",
+  "celular": "21312312321",
+  "empresa_representa": "dsadas",
+  "cargo": "dasdsa",
+  "tipo_entidad": "independiente_consultor",
+  "otro_tipo_entidad": "",
+  "asociada_asocarbonor": "si",
+  "asistira_todo": "solo_el_19_de_noviembre",
+  "enviar_info": "no_gracias"
+
+}

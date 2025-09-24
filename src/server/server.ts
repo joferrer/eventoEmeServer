@@ -18,7 +18,7 @@ class Server {
 
     middlewares(){
         this.app.use(cors({
-            origin: ['http://localhost:4321', 'https://evento-minero-eme-hwmi.vercel.app','https://www.eventoeme.com']
+            origin: ['http://localhost:4321','http://localhost:3000' ,'https://evento-minero-eme-hwmi.vercel.app','https://www.eventoeme.com']
         }));
         this.app.use(express.json());
         this.app.use(express.static(path.resolve(__dirname, "../../public")));
