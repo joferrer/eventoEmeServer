@@ -11,8 +11,8 @@ const firebaseConfig = {
   credential: admin.credential.cert(
     {
     projectId: process.env.projectId,
-    privateKey: process.env.FIREBASE_PRIVATE_KEY,
-    clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
+    privateKey: process.env.private_key,
+    clientEmail: process.env.client_email,
   }
   ),
   apiKey: process.env.apiKey, 

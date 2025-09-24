@@ -3,7 +3,7 @@ POST http://localhost:3000/api/inscribirse HTTP/1.1
 content-type: application/json
 
 {
-  "nombre_completo": "dasdsa",
+  "nombre_completo": "Jariso",
   "tipo_doc": "cedula",
   "documento": "231321",
   "correo": "a@gmail.com",
