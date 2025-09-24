@@ -1,5 +1,5 @@
 ### Publicar hora
-POST http://localhost:3000/api/inscribirse HTTP/1.1
+POST https://eventoemeserver-production.up.railway.app/api/inscribirse HTTP/1.1
 content-type: application/json
 
 {
