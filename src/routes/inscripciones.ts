@@ -1,4 +1,4 @@
-import { agregarInscripcion } from "@/firebase/firestore";
+import { agregarInscripcion } from "../firebase/firestore";
 import { Inscripcion } from "@/types/inscripcion";
 import { Router } from "express";
 

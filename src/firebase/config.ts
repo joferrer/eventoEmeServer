@@ -10,15 +10,15 @@ config(); // Cargar variables de entorno desde el archivo .env
 const firebaseConfig = {
   credential: admin.credential.cert(
     {
-    projectId: process.env.project_id,
-    privateKey: process.env.private_key,
-    clientEmail: process.env.client_email,
+    projectId: process.env.FIREBASE_PROJECT_ID,
+    privateKey: process.env.FIREBASE_PRIVATE_KEY,
+    clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
   }
   ),
   apiKey: process.env.apiKey, 
     authDomain: process.env.authDomain,
     databaseURL: process.env.databaseURL,
-    projectId: process.env.projectId,
+    projectId: process.env.FIREBASE_PROJECT_ID,
     storageBucket: process.env.storageBucket,
     messagingSenderId: process.env.messagingSenderId,
     appId: process.env.appId,

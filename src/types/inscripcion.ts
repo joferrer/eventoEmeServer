@@ -1,5 +1,5 @@
 export interface Inscripcion {
-    nombre_coompleto: string,
+  nombre_completo: string,
   tipo_doc: string,
   documento: string,
   correo: string,
